@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>egov.md</Authors>
+    <PackageTags>.net; MPass; Saml; Authentication;</PackageTags>
+    <Description>This package contains an authentication handler for MPass implementing SAML 2.0 protocol for ASP.NET Core.</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/egov-moldova/Egov.Integrations.MPass.Saml</PackageProjectUrl>
+    <PackageIcon>MPass.png</PackageIcon>
+    <RepositoryUrl>https://github.com/egov-moldova/Egov.Integrations.MPass.Saml.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="MPass.png" Pack="true" PackagePath="\" />
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Egov.Extensions.Configuration" Version="10.0.4" />
+    <PackageReference Include="Microsoft.IdentityModel.Protocols" Version="8.17.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Egov.Integrations.MPass.Saml.Tests" />
+  </ItemGroup>
+
+</Project>

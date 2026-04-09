@@ -1,0 +1,10 @@
+.vs/
+bin/
+obj/
+.git/
+.idea
+/src/.idea
+*.suo
+*.user
+
+/src/Test/Files/Certificates/*
