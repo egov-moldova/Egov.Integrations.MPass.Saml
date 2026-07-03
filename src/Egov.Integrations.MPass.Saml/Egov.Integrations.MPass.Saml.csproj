@@ -28,7 +28,7 @@
 
   <ItemGroup>
     <PackageReference Include="Egov.Extensions.Configuration" Version="10.0.4" />
-    <PackageReference Include="Microsoft.IdentityModel.Protocols" Version="8.17.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Protocols" Version="8.19.1" />
   </ItemGroup>
 
   <ItemGroup>
