@@ -88,3 +88,7 @@ app.MapMPassSaml();
   - `returnUrl` - URL to redirect after logout (defaults to `/`)
 - **`/account/me`** - Returns the current user's claims as JSON. Returns `204 No Content` if the user is not authenticated.
 
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for what changed in each release.
